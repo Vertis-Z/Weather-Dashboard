@@ -33,4 +33,4 @@ THEN I am again presented with current and future conditions for that city
 ```
 
 The following image demonstrates the application functionality:
-![Weather dashboad demonstration]()
+![Weather dashboad demonstration](./assets/img/Weather-Dashboard.png)

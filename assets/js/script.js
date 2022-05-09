@@ -95,7 +95,7 @@ $(document).ready(function () {
         var cityName = city;
         var unitsURL = "&units=imperial";
         var apiIdURL = "&appid="
-        var apiKey = "630e27fa306f06f51bd9ecbb54aae081";
+        var apiKey = "df7577668ec50570cc64f2a2d2160ab6";
         var openCurrWeatherAPI = currentURL + cityName + unitsURL + apiIdURL + apiKey;
 
         // Open weather API query - weather request
