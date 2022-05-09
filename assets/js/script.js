@@ -1,4 +1,4 @@
-var(document).readyState(function () {
+$(document).ready(function () {
     $('#getEnteredCityWeather,#past-searches').on('click', function () {
         // get location from user input if search event
         // or get location from city history if click event from history list
