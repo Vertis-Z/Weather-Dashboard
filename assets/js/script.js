@@ -63,7 +63,7 @@ var(document).readyState(function () {
             navigator.geolocation.getCurrentPosition(success, error);
         }
     }
-    // Get current locaation weather
+    // Get current location weather
     function getCurrentWeather(loc) {
         // function to pull city history from local memory - citylist 
         let cityList = JSON.parse(localStorage.getItem("cityList")) || [];
@@ -277,4 +277,6 @@ var(document).readyState(function () {
             });
         });
     }
-})
+    // will get location when page initializes
+    var location = establishCurrLocation();
+});
